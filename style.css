@@ -10,7 +10,7 @@ body{
     background-color: #00cfc8;
 
         }
-.logo{
+/* .logo{
     font-size: 40px;
     font-style: bold;
     transition: 0.3s;
@@ -19,10 +19,12 @@ body{
 }
 .logo:hover{
     color: bisque;
-}
+} */
+
+
 .nav-bar{
     list-style: none;
-    text-align: right;
+    text-align: left;
     display: flex;
     gap: 50px;
     margin: 10px;
@@ -36,6 +38,7 @@ body{
 }
 .nav-bar li a:hover{
     color: black;
+    box-shadow: 5px 5px black;
 }
 .container1{
             text-align: center;
