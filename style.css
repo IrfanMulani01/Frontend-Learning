@@ -102,3 +102,47 @@ img{
     padding-right: 50px;
     margin-top: 50px;
 }
+
+.nav-bar2{
+    list-style: none;
+    text-align: left;
+    display: flex;
+    gap: 50px;
+    margin: 10px;
+    padding: 0;
+}
+.nav-bar2 li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: larger;
+    transition: 0.3s;
+}
+.nav-bar2 li a:hover{
+    color: black;
+    box-shadow: 5px 5px black;
+    height: auto;
+    width: auto ;
+   
+}
+
+.li1{
+    border: 1px solid white;
+    border-radius: 13px;
+    padding-top: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    height: auto;
+    width: auto;
+}
+
+.li2{
+    border: 1px solid white;
+    border-radius: 15px;
+     padding-top: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    height: auto;
+    width: auto;
+}
