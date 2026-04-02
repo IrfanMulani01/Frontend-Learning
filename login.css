@@ -20,12 +20,32 @@ body{
     font-size: 28px;
 }
 input{
-    width: 400px;
+    width: 500px;
     /* padding-left: 50px; */
     margin-left: 50px;
     height: 30px;
     margin-top: 15px;
 }
 .label{
+    margin-left: 50px;
+}
+#submit{
+    position: relative;
+    left: 270px;
+    height: 40px;
+    width: 80px;
+    font-size: 17px;
+    transition: 0.3s;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+}
+#submit:hover{
+    color: brown;
+}
+.relate{
     margin-left: 50px;
 }
