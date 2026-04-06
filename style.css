@@ -35,6 +35,25 @@ i{
     width: 80px;
 
 }
+.search-icon {
+    width: 20px;
+    height: 20px;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: relative;
+}
+
+.search-icon::after {
+    content: "";
+    width: 10px;
+    height: 3px;
+    background: white;
+    position: absolute;
+    bottom: -6px;
+    right: -6px;
+    transform: rotate(45deg);
+}
+
 i:hover{
     color: navy;
     cursor: pointer;
