@@ -53,10 +53,11 @@ i:hover{
     color: aliceblue;
     font-size: larger;
     transition: 0.3s;
+    
 }
 .nav-bar li a:hover{
     color: black;
-    box-shadow: 5px 5px black;
+    box-shadow: 0 0 15px brown;
 }
 img{
     height: 500px;
@@ -105,27 +106,59 @@ img{
     padding-right: 50px;
     margin-top: 50px;
 }
-
-.nav-bar2{
-    list-style: none;
-    text-align: left;
+.button{
     display: flex;
-    gap: 50px;
-    margin: 10px;
-    padding: 0;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    width: 170px;
+    display: flex;
+    margin-right: 20px;
+    
 }
-.nav-bar2 li a{
+
+.button1{
+    border: none;
+    background: transparent;
     text-decoration: none;
-    color: aliceblue;
-    font-size: larger;
+    border: 2px solid white;
+    margin-right: 20px;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 15px;
     transition: 0.3s;
 }
-.nav-bar2 li a:hover{
-    color: black;
-    box-shadow: 5px 5px black;
-    height: auto;
-    width: auto ;
-   
+
+.button2{
+    text-decoration: none;
+    border: none;
+    background: transparent;
+    border: 2px solid white;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.button1:hover,
+.button2:hover {
+    background: linear-gradient(to right, red, orange);
+    color: white;
+    box-shadow: 0 0 15px brown;
+    transform: scale(1.1);
+}
+
+.button1 a,
+.button2 a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .li1{
