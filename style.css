@@ -32,12 +32,13 @@ i{
     margin-top: 10px;
     padding: 0%;
     transition: 0.3s;
+    width: 80px;
 
 }
 i:hover{
     color: navy;
     cursor: pointer;
-    box-shadow: 2px 5px black;
+    box-shadow: 0 0 15px brown;
 }
 
 .nav-bar{
@@ -96,11 +97,8 @@ img{
 
 .content {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    position: relative;
-    left: 40px;
+    justify-content: space-between;
 }
 .contnt{
     padding-right: 50px;
