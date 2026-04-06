@@ -43,5 +43,15 @@
     <footer class="container1">
         @2004. Mulani group
     </footer>
+    <script>
+        window.onload(function(){
+            const isLoggedIn = localStorage.getItem("isLoggedIn");
+
+            if("isLoggedIn" == true){
+                document.getElementById("submit").style.display = "none";
+                document.getElementById("profilePic").style.display = "block";
+            }
+        });
+    </script>
 </body>
 </html>
