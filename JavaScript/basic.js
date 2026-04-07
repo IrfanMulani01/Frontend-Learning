@@ -11,3 +11,14 @@
 // console.log(student);
 
 
+// Store a number, string, boolean, null, and undefined in separate variables.
+// let num = 10
+// let str = "irfan"
+// let isUser = true
+// let study = null
+// let a;
+// console.log(typeof num);
+// console.log(typeof str);
+// console.log(typeof isUser);
+// console.log(typeof study);
+// console.log(typeof a);
