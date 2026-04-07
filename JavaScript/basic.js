@@ -42,3 +42,13 @@
 // console.log(MY_NAME);
 
 
+// Create an object for a user with name, password, and login status.
+// let my_object = {
+//     name: "irfan mulani",
+//     password: "irfan123",
+//     loginStatus: true
+// }
+
+// console.log(my_object);
+// console.log(typeof my_object);
+
