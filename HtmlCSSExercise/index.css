@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(96, 120, 108);
+}
+.container{
+    height: auto;
+}
+
+.nav-bar{
+    background-color: whitesmoke;
+    height: 70px;
+    margin: 15px;
+    border: 5px ;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+
+}
+
+.nav-bar:hover{
+    box-shadow: 0 0 25px rgb(232, 87, 87);
+    /* transform: scale(1.1); */
+}
+
+.nav-bar i{
+    margin-left: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    position: relative;
+    left: 180px;
+    font-size: 20px;
+    width: 100px;
+}
+
+
+.nav-bar .button {
+    position: relative;
+    left: 1500px;
+    border: none;
+    background: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 25px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.nav-bar .button:hover{
+    box-shadow: 0 0 15px rgb(22, 155, 238);
+    transform: scale(1.1);
+}
+
+.container2 img {
+    height: 800px;
+    width: 1800px;
+    margin-left: 10px;
+    border: 2px;
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    margin: 30px;
+}
+
+.productCard img{
+    height: 400px;
+    width: 500px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.productCard img:hover{
+    transform: scale(1.1);
+}
+
+.productCard1{
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.productCard2{
+    height: 100px;
+    width: 500px;
+    border-radius: 15px;
+    background-color: rgb(110, 82, 48);
+}
+
+.button1, .button2{
+    font-size: 30px;
+    position: relative;
+    left: 50px;
+    top: -25px; 
+    gap: 50px;
+    margin: 50px;
+    background: none;
+    border-color: black;
+    border-radius: 15px;
+    padding: 5px;
+    transition: 0.3s;
+    color: rgb(255, 139, 139);
+    cursor: pointer;
+}
+
+.button1:hover{
+    box-shadow: 0 0 15px brown;
+    color: rgb(174, 217, 255);
+    transform: scale(1.1);
+}
+
+.button2:hover{
+    box-shadow: 0 0 15px brown;
+    color: rgb(170, 215, 255);
+    transform: scale(1.1);
+}
