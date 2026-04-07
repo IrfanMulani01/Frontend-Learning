@@ -30,3 +30,15 @@
 // console.log(num);
 
 
+// // Create variables using:
+// let myName = "irfan"    // camelCase
+// let my_name = "irfan"   // snake_case
+// let My_Name = "irfan"   // PascalCase
+// let MY_NAME = "irfan"   // UPPER_SNAKE_CASE
+
+// console.log(myName);
+// console.log(my_name);
+// console.log(My_Name);
+// console.log(MY_NAME);
+
+
