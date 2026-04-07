@@ -22,3 +22,11 @@
 // console.log(typeof isUser);
 // console.log(typeof study);
 // console.log(typeof a);
+
+
+// Change a variable from string to number (dynamic typing).
+// let name = "10"
+// let num = name
+// console.log(num);
+
+
