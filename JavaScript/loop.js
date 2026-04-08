@@ -81,6 +81,7 @@
 // }
 
 // Find the factorial of a number (e.g., 5 → 120)
+<<<<<<< HEAD
 // let fact = 1    
 // for(let i=0; i<=5;i++){
 //     fact *= i
@@ -94,3 +95,15 @@
 // for (let i = 4; i < srt.length; i++) {
 //     console.log(srt[i]);
 // }
+=======
+// for(let i=0; i<=5;i++){
+//     let fact = 1
+//     for(let j=1; j<=i; i++)
+//     {
+//         fact*=i
+//     }
+//     console.log(fact);
+    
+// }
+
+>>>>>>> 98466edc56f220201951a8166c16c2a087b9fd7d
