@@ -1,6 +1,7 @@
 body{
-    background-color: rgb(96, 120, 108);
+    background-color: #212529;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .container{
     height: auto;
@@ -8,10 +9,13 @@ body{
 
 .nav-bar{
     background-color: #212529;
-    height: 70px;
+    height: 55px;
     display: flex;
     align-items: center;
     color: #FFFFF8;
+    border: 1px solid #25252b;
+    box-shadow: 0 0 5px #1b1b27;
+
 }
 
 
@@ -21,51 +25,115 @@ body{
     transition: 0.3s;
     cursor: pointer;
     position: relative;
-    left: 180px;
+    left: 135px;
     font-size: 20px;
     width: 100px;
+    gap: 10px;
+    font: bold;
+}
+b{
+    position: relative;
+    left: 93px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 .nav-bar .button {
     position: relative;
-    left: 1500px;
+    left: 1430px;
     border: none;
     background: none;
-    border: 1px solid gray;
+    border: 1px solid #32383e;
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 20px;
     transition: 0.3s;
+    color: #757a80;
     cursor: pointer;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
 }
 
-.nav-bar .button:hover{
-    box-shadow: 0 0 15px rgb(22, 155, 238);
-    transform: scale(1.1);
+.container2{
+    display: flex;
+    justify-content: center;
+}
+.container2 .hero{
+    text-align: center  ;
+    padding: 90px 20px;
 }
 
-.container2 img {
-    height: 800px;
-    width: 1800px;
-    margin-left: 10px;
-    border: 2px;
-    border-radius: 20px;
-    z-index: 2;
+.container2 .hero h1{
+    font-size: 40px;
+    color: rgb(227, 218, 218); 
+    margin-bottom: 5px;   
+}
+
+.container2 .hero p{
+    max-width: 630px;
+    color: rgb(176, 171, 171);
+    margin: 0 auto 25px;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+.container2 .hero .button10{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.primaryBtn{
+    background-color: #0D6EFD;
+    height: auto;
+    width: auto;
+    border:  none;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.secondaryBtn{
+    background-color: #5C636A;
+    height: auto;
+    width: auto;
+    border:  none;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.primaryBtn:hover{
+    color: white;
+    background: #1d6cbf;   
+}
+
+.secondaryBtn:hover{
+    color: white;
+    background-color: #535557;
 }
 
 .container3{
     display: flex;
     justify-content: center;
-    gap: 130px;
-    margin: 30px;
+    gap: 10px;
+    background-color: #2B3035;
+    height: auto;
 }
 
-.productCard img{
-    height: 400px;
-    width: 500px;
-    border-radius: 15px;
+.productCard {
+    height: 200px;
+    width: auto ;
     cursor: pointer;
-    transition: 0.3s;
+    background-color: #55595C;
 
 }
 
@@ -74,15 +142,15 @@ body{
 }
 
 .productCard1{
-    border: 2px solid black;
+    width: 450px;
+    border: 1px solid black;
     border-radius: 15px;
+    margin-top: 30px;
 }
 
 .productCard2{
     height: 100px;
     width: 500px;
-    border-radius: 15px;
-    background-color: rgb(110, 82, 48);
 }
 
 .button1, .button2{
