@@ -81,12 +81,16 @@
 // }
 
 // Find the factorial of a number (e.g., 5 → 120)
+// let fact = 1    
 // for(let i=0; i<=5;i++){
-//     let fact = 1
-//     for(let j=1; j<=i; i++)
-//     {
-//         fact*=i
-//     }
+//     fact *= i
 //     console.log(fact);
-    
+// }
+
+// // Longest Word
+// // Find longest word in a sentence.
+// let srt = "hii i am irfan";
+
+// for (let i = 4; i < srt.length; i++) {
+//     console.log(srt[i]);
 // }
